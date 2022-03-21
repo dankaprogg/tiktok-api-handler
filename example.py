@@ -6,7 +6,7 @@ async def main():
     client = TikTok()
     user = await client.get_user("@renankkkjk")
     if user:
-        print(f"User nickname: {user.nickname}")
+        print(f"User nickname: {user}")
     else:
         print("User not found")
 
